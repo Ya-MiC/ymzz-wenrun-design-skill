@@ -1,0 +1,8 @@
+{
+  "commit": "4d59b866db00a4cb8e8e05253772dcdc49ae988e",
+  "ui": "app/ui/index.html, app.css, tokens.css, app.js",
+  "repo": "https://github.com/Ya-MiC/ymzz-loop",
+  "branch": "cursor/v021-integrated-app-e023",
+  "renderer": "Google Chrome headless, the real page files",
+  "core": "local stand-in for session calls only; not the Rust binary"
+}

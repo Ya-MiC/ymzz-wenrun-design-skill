@@ -21,6 +21,9 @@ Archive inspected: `wenrun-design-system-v7.1`, 83 files, uploaded as `v021-wenr
 | Motion numbers | `tokens/tokens.css` and `tokens/motion.js` | root SKILL §5.2 | toast formula disagrees with `motion.js` about `ceil` | both kept |
 | 60/30/10 | whitepaper chapter 2 and root SKILL §2.4 | different splits | both wordings kept | color document |
 | Office mapping | not in the archive | requested for this skill | derived | `references/office-derivations.md` |
+| 稟冊 v0.21 tokens.css | `app/ui/tokens.css` at commit `4d59b866` | byte-identical to the v7.1 file | same locked colors | `assets/tokens/tokens.css` |
+| 稟冊 chrome | `app/ui/app.css` | radius 12/16, compact density, unresolved `--paper` | measured, not a new palette | `assets/product/bingce-app.css` |
+| Generated Office samples | not in the archive | `scripts/build_office_samples.py` | derived 雲箋 files | `samples/` |
 | Interaction and non-ideal states | docs/10, docs/03, docs/09, root contract §5 | verbatim copies of docs/08, docs/09, docs/10 | sourced principles | `references/interaction-and-states.md` |
 | Frontend token consumption | tokens.css, docs/08 §3 | root contract §9 | sourced | `references/frontend.md` |
 | Error `{code, message}`, client-owned sentences, dual validation, cancel, no fake ETA | docs/08, root contract §8–§9 | — | sourced behavior, no enum list | `references/backend-contracts.md` |

@@ -1,15 +1,15 @@
 ---
 name: ymzz-wenrun-design
 description: >-
-  Applies the 晏銘湛箴 (ymzz) wenrun grammar from wenrun-design-system v7.1
+  Applies the 晏銘湛箴 (ymzz) wenrun grammar, the approved 稟冊 v0.21 look,
   across UI and UX for web, desktop, and mobile, frontend implementation,
   and the backend contracts that support that UX, plus editable Word DOCX,
   PowerPoint PPTX, and Excel XLSX. Use when designing or reviewing
-  interfaces, components, states, forms, tables, charts, tokens,
-  accessibility, API errors, progress, or validation that must keep one
-  visual and interaction logic. Concrete Office mappings and API schemas
-  the archive does not define are derivations. Do not use for an unrelated
-  visual system.
+  interfaces, onboarding, components, states, forms, tables, charts,
+  tokens, accessibility, API errors, progress, or validation that must
+  keep one visual and interaction logic. Concrete Office mappings and API
+  schemas the archive does not define are derivations. Do not use for an
+  unrelated visual system.
 license: MIT
 ---
 
@@ -22,7 +22,9 @@ Use this skill for the whole product surface, not for a palette PDF alone and no
 - Backend contracts that support that UX: errors, validation, progress, cancel, privacy
 - Editable Word (DOCX), PowerPoint (PPTX), and Excel (XLSX)
 
-The grammar comes from wenrun-design-system v7.1. It is not a Tailwind, Ant Design, or default Office theme. The backend section is not a server color scheme. The archive's own shell was Vue, Rust, and an optional Python sidecar. Those names are the reference layout. They are not a requirement to build that stack, and this package does not ship an application.
+The grammar comes from wenrun-design-system v7.1. The approved product picture of that grammar is 稟冊 v0.21 (`ymzz-bingce`), commit `4d59b866` on `cursor/v021-integrated-app-e023`. Its `app/ui/tokens.css` is byte-identical to `assets/tokens/tokens.css`. Radius, the compact density switch, and the undefined `--paper` reference live in `app/ui/app.css` and are recorded in `references/product-playbook.md`. They are not new locked colors.
+
+It is not a Tailwind, Ant Design, or default Office theme. The backend section is not a server color scheme. This package does not ship the 稟冊 application, a checkout, or a hosted API.
 
 The skill is generic. It does not assume a particular chat, bot, or application shell.
 
@@ -49,10 +51,11 @@ Follow this order when sources disagree. Do not collapse a disagreement into one
 5. Do not set 雲箋 or 陶土 colors as text. Do not put body text on 可可棕 `#A38E7A`. On a dark ground, do not write with 深可可 `#7C6B59`; the derived text cocoa is `#9D8A76`, and it is not a fifth brand color.
 6. Keep one family on one surface. If two zones are required, separate them with neutrals. Do not blend 雲箋 into 陶土.
 7. Set type from the token, not from a generic substitute: `"Noto Sans SC Variable", "Noto Sans SC", system-ui, sans-serif`. Body `14px`, line-height `1.7`, `tabular-nums`. The mobile long-form token is `15px`; the prose range `15–16px` is the document sentence, not a second token. Dark mode shifts variable-font weight by `-40`.
-8. For UI on web, desktop, or mobile, follow `references/interaction-and-states.md` and `references/frontend.md`. Cover loading, empty, error, offline, permission, partial success, cancel, and recovery. Keep keyboard, pointer, and touch able to finish the task.
-9. For a backend or adapter, follow `references/backend-contracts.md`. Keep the sourced behavior. Use a derived JSON shape only when the archive has no shape, and say so. Do not paint the API in brand colors. Do not send a translated sentence as the error body.
-10. For Word, PowerPoint, or Excel, follow `references/office-derivations.md` and say which decisions are derived. Deliver editable text, styles, and cells.
-11. If a needed value is not in the source, stop and name the gap. Do not fill it with a default blue, a new status red, an unstated retry count, or an unstated size.
+8. For a product surface, follow `references/product-playbook.md` and `references/product-recipes.md`. Nickname first. No typed paths. Numbers and cards open their detail. Sidebar, breadcrumbs, and `Cmd/Ctrl+K` are the bar. 稟冊 v0.21 has the nickname screen and the sidebar. It does not yet have breadcrumbs, a command palette, or clickable report numbers. Do not describe those gaps as finished.
+9. For UI on web, desktop, or mobile, also follow `references/interaction-and-states.md` and `references/frontend.md`. Cover loading, empty, error, offline, permission, partial success, cancel, and recovery. Keep keyboard, pointer, and touch able to finish the task. On a phone, do not copy the v0.21 sticky `100vh` sidebar.
+10. For a backend or adapter, follow `references/backend-contracts.md`. Keep the sourced behavior. Use a derived JSON shape only when the archive has no shape, and say so. Do not paint the API in brand colors. Do not send a translated sentence as the error body.
+11. For Word, PowerPoint, or Excel, follow `references/office-derivations.md`. Match the generated 雲箋 files in `samples/` or say which decision differs. Deliver editable text, styles, and cells.
+12. If a needed value is not in the source, stop and name the gap. Do not fill it with a default blue, a new status red, an unstated retry count, or an unstated size.
 
 ## Hard rules
 
@@ -76,7 +79,11 @@ Follow this order when sources disagree. Do not collapse a disagreement into one
 | `assets/tokens/index.derived.json` | Index built here from `tokens.css`. Not an original file. |
 | `references/color-and-contrast.md` | Roles, status conflicts, 60/30/10 wording, contrast. |
 | `references/contrast-check.md` | Recomputation beside the two published tables. No winner. |
+| `references/product-playbook.md` | How to build the product. 稟冊, T3 Code, Nowledge Mem. Gaps kept visible. |
+| `references/product-recipes.md` | Page and component recipes, with screenshots of the v0.21 UI. |
 | `references/web-grammar.md` | Type, spacing, density, hierarchy, components, do and don't. |
+| `samples/` | Generated 雲箋 PPTX, DOCX, and XLSX. Derivations, not masters. |
+| `assets/product/bingce-app.css` | Verbatim 稟冊 v0.21 chrome. Not a second palette. |
 | `references/interaction-and-states.md` | Forms, navigation, tables, charts, loading, empty, error, recovery, responsive behavior. |
 | `references/frontend.md` | Tokens, theme, keyboard, focus, contrast, motion, locale, delivery checks. |
 | `references/backend-contracts.md` | Sourced error and task rules, then derived payloads. Not a color theme. |
@@ -93,4 +100,6 @@ Follow this order when sources disagree. Do not collapse a disagreement into one
 - No original slide, page, or worksheet master. Office sizes in the derivation file are conversions, not archive tokens.
 - No original pagination schema, timestamp format, filter grammar, retry count, audit log, or retention period. docs/08 and the root contract require those conventions to be decided. They do not decide them.
 - No published hex step for `prefers-contrast: more`, and no published opacity for `prefers-reduced-transparency`.
-- No application, hosted API, or paid service is part of this package.
+- No application, hosted API, checkout, or paid service is part of this package.
+- No `--radius` token and no `--paper` token. 12px and 16px are chrome measurements from `app.css`. `--paper` is an unresolved reference.
+- No command palette, breadcrumb, or clickable report number in the captured 稟冊 v0.21 UI. The playbook requires them for new work.

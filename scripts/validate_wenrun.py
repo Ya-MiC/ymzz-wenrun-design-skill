@@ -13,6 +13,7 @@ import json
 import re
 import subprocess
 import sys
+import zipfile
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
@@ -22,6 +23,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 HASHES = {
     "assets/tokens/tokens.css": "217ca41de8a15fc612b17ec33b428470ffa155bedb8ddec73a47dba67aa85ad4",
+    "assets/product/bingce-app.css": "f1f24928a9d6c9c4aa34b2ec4ce888260dccfa98d9fd5bcf9dcca3690eb4e42b",
     "assets/tokens/contrast-matrix.md": "6c1b0ae90ce775df505f5dfb02db35668f4a5fb3f6fbb7ce9d0232f39a8857af",
     "assets/tokens/motion.js": "9500b9a93999307f751e823c9c1e1634b4c6939c20b6c3bb11cc930aa1f1fd56",
     "assets/non-product/vibe-content.css": "feca22ca71018eabbcffdf859ac75fc3490320920a05fef8e052d37a4ba69141",
@@ -425,6 +427,115 @@ def check() -> list[str]:
             continue
         errors.extend(markdown_links(path))
 
+    errors.extend(check_entry(readme))
+    errors.extend(check_samples())
+    errors.extend(check_screens())
+    return errors
+
+
+SAMPLE_COLORS = {
+    "3D3833", "6E675E", "9C948A", "F8F6EF", "B9DDF1", "F4DDE7", "CDBFE0",
+    "FCFCF9", "FEFDFC", "FFFFFE", "E9E7E0",
+}
+SCREENS = {
+    "desktop-onboarding.png": (1440, 900),
+    "desktop-files.png": (1440, 900),
+    "desktop-report.png": (1440, 900),
+    "desktop-links.png": (1440, 900),
+    "mobile-onboarding.png": (390, 844),
+    "mobile-files.png": (390, 844),
+    "mobile-files-work.png": (390, 844),
+}
+
+
+def check_entry(readme: str) -> list[str]:
+    errors = []
+    chinese = readme.find("## 給代理")
+    english = readme.find("## English")
+    if chinese < 0 or english < 0 or chinese > english:
+        errors.append("README must put the Traditional Chinese agent section before English")
+    for needle in ("PAYATHON", "Skill Pay", "稟冊", "Nowledge", "T3 Code"):
+        if needle not in readme:
+            errors.append(f"README missing {needle}")
+    playbook = (ROOT / "references/product-playbook.md").read_text(encoding="utf-8")
+    for needle in ("T3 Code", "Nowledge Mem", "newnodge", "Cmd/Ctrl+K", "怎麼稱呼你"):
+        if needle not in playbook:
+            errors.append(f"playbook missing {needle}")
+    if "byte-identical" not in playbook and "逐字節相同" not in playbook:
+        errors.append("playbook must say the 稟冊 tokens match")
+    return errors
+
+
+def office_colors(path: Path) -> set[str]:
+    found = set()
+    with zipfile.ZipFile(path) as package:
+        for name in package.namelist():
+            if not name.endswith(".xml"):
+                continue
+            text = package.read(name).decode("utf-8", "ignore")
+            found.update(item.upper() for item in re.findall(r'srgbClr val="([0-9A-Fa-f]{6})"', text))
+            found.update(item.upper() for item in re.findall(r'w:fill="([0-9A-Fa-f]{6})"', text))
+            found.update(item.upper() for item in re.findall(r'w:color="([0-9A-Fa-f]{6})"', text))
+            found.update(item.upper() for item in re.findall(r'rgb="(?:FF)?([0-9A-Fa-f]{6})"', text))
+    return found
+
+
+def check_samples() -> list[str]:
+    errors = []
+    for name in ("yunjian-brief.pptx", "yunjian-brief.docx", "yunjian-brief.xlsx"):
+        path = ROOT / "samples" / name
+        if not path.exists():
+            errors.append(f"missing samples/{name}")
+            continue
+        package = zipfile.ZipFile(path)
+        if name.endswith("pptx"):
+            text = package.read("ppt/slides/slide1.xml").decode("utf-8", "ignore")
+        elif name.endswith("docx"):
+            text = package.read("word/document.xml").decode("utf-8", "ignore")
+        else:
+            text = "\n".join(
+                package.read(part).decode("utf-8", "ignore")
+                for part in package.namelist()
+                if part.startswith("xl/worksheets/")
+            )
+        if "Noto Sans SC" not in zipfile.ZipFile(path).read(
+            "ppt/theme/theme1.xml" if name.endswith("pptx")
+            else "word/theme/theme1.xml" if name.endswith("docx")
+            else "xl/theme/theme1.xml"
+        ).decode("utf-8", "ignore"):
+            errors.append(f"{name} theme is not Noto Sans SC")
+        extra = office_colors(path) - SAMPLE_COLORS
+        if extra:
+            errors.append(f"{name} has colors outside 雲箋: {sorted(extra)}")
+        if "75589D" in text or "4F81BD" in text or "Calibri" in text:
+            errors.append(f"{name} still carries a foreign face or hue")
+    pptx = zipfile.ZipFile(ROOT / "samples/yunjian-brief.pptx").read("ppt/slides/slide1.xml").decode("utf-8")
+    if "同一套溫潤" not in pptx:
+        errors.append("pptx sample lost its title")
+    return errors
+
+
+def check_screens() -> list[str]:
+    errors = []
+    folder = ROOT / "assets/product/screens"
+    for name, size in SCREENS.items():
+        path = folder / name
+        if not path.exists():
+            errors.append(f"missing screenshot {name}")
+            continue
+        image = Image.open(path).convert("RGB")
+        if image.size != size:
+            errors.append(f"{name} is {image.size}, expected {size}")
+        if len(set(image.getdata())) < 8:
+            errors.append(f"{name} looks blank")
+    onboard = folder / "desktop-onboarding.png"
+    if onboard.exists():
+        pixel = Image.open(onboard).convert("RGB").getpixel((8, 8))
+        if pixel != (0xF8, 0xF6, 0xEF):
+            errors.append(f"onboarding background is {pixel}, expected paper")
+    note = folder / "capture.json"
+    if not note.exists() or "4d59b866" not in note.read_text(encoding="utf-8"):
+        errors.append("screenshot capture note must name commit 4d59b866")
     return errors
 
 

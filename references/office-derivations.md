@@ -2,7 +2,7 @@
 
 Word, PowerPoint, and Excel are three surfaces of the same grammar. They are not the whole skill. UI, frontend behavior, and backend contracts are specified beside this file. The v7.1 archive never mentions PPTX, DOCX, or XLSX. Everything in this file is a derivation so those formats can carry the same website grammar. It is not a second palette and not an original master file.
 
-This package does not include sample deck, document, or workbook files.
+Generated samples, still derivations, live in `samples/`. They are 雲箋 only. They are not original masters, and they do not add a ninth hue. `scripts/build_office_samples.py` writes them. If Noto Sans SC is not installed, the reading program may substitute another face. That substitution is not a second specified typeface.
 
 ## What stays identical
 
