@@ -1,0 +1,51 @@
+/* ============================================================
+   溫潤設計系統 v7.1 · tokens/vibe-content.css
+   內容創作物料預設（可選，默認不載入）
+   ------------------------------------------------------------
+   對標對象：抖音博主 Ludi《Vibe 知識大賞》貼紙對比風
+   （歸納自其 12 期影片畫面，2026-11-02，方法歸納見 docs/18）
+   用途邊界：僅用於行銷物料 / 引導插畫 / 短視頻封面，
+   禁止進入產品常規組件（會破壞溫潤的柔軟質感）。
+   掛載方式：<html class="vibe-sticker"> 或組件根節點手動加類。
+   ============================================================ */
+
+:root.vibe-sticker {
+  /* 底面 */
+  --vibe-bg: #ECE9E2;                 /* 奶油底 */
+  --vibe-dot: rgba(17, 17, 17, .06);  /* 點陣網格（間距 24px / 點徑 2px） */
+
+  /* 卡片（貼紙感三件套） */
+  --vibe-card: #FFFFFF;
+  --vibe-line: #111111;               /* 粗描邊 3px */
+  --vibe-radius: 16px;
+  --vibe-shadow: 6px 6px 0 #111111;   /* 硬投影，無模糊 */
+
+  /* 強調色 */
+  --vibe-accent: #E8443A;             /* 番茄紅：徽章 / 關閉 / 強調 */
+  --vibe-gold: #F5B301;               /* 金黃：結論膠囊 */
+  --vibe-blue: #2B50C8;               /* 寶藍：幾何碎片 */
+
+  /* 字幕（短視頻） */
+  --vibe-caption-size: 22px;
+  --vibe-caption-stroke: 4px;         /* 白字黑描邊 */
+
+  /* 動效（貼紙感：彈入為主，忌緩移） */
+  --vibe-ease: cubic-bezier(.34, 1.56, .64, 1);  /* back-out */
+  --vibe-dur-in: 240ms;
+  --vibe-dur-out: 160ms;
+}
+
+/* 點陣網格底（用法：body 或容器） */
+.vibe-sticker .vibe-paper {
+  background-color: var(--vibe-bg);
+  background-image: radial-gradient(var(--vibe-dot) 1.1px, transparent 1.1px);
+  background-size: 24px 24px;
+}
+
+/* 貼紙卡片 */
+.vibe-sticker .vibe-card {
+  background: var(--vibe-card);
+  border: 3px solid var(--vibe-line);
+  border-radius: var(--vibe-radius);
+  box-shadow: var(--vibe-shadow);
+}

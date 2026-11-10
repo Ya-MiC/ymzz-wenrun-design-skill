@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="晏銘湛箴 徽章案一：箓印篆刻風">
+  <title>案一 · 箓印篆刻風</title>
+  <desc>方印佈局：暖紙白底、暮靄可可粉印面、陰文「箴」字，四角打磨圓角，邊框內縮留「印邊」。
+        色彩只取已鎖定色卡：#F8F6EF / #B394A3 / #7C6B59 / #3D3833。</desc>
+  <defs>
+    <!-- 印泥質感：暮靄荷粉向可可棕的極輕漸變，非紅色系，忠於色卡 -->
+    <linearGradient id="sealFace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B394A3"/>
+      <stop offset="1" stop-color="#A3848F"/>
+    </linearGradient>
+    <filter id="inkEdge" x="-4%" y="-4%" width="108%" height="108%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.09" numOctaves="2" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.5"/>
+    </filter>
+  </defs>
+
+  <!-- 底牌 -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="#F8F6EF"/>
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none"
+        stroke="#7C6B59" stroke-opacity=".28" stroke-width="2"/>
+
+  <!-- 印面（篆刻陰文：實底挖字） -->
+  <g filter="url(#inkEdge)">
+    <rect x="112" y="112" width="288" height="288" rx="28" fill="url(#sealFace)"/>
+    <!-- 內印邊：篆刻「邊欄」 -->
+    <rect x="132" y="132" width="248" height="248" rx="18" fill="none"
+          stroke="#F8F6EF" stroke-opacity=".55" stroke-width="4"/>
+  </g>
+
+  <!-- 陰文字「箴」：以白色挖刻示意。生產前須轉曲（outline），此處用系統字嵌入示意 -->
+  <text x="256" y="268" text-anchor="middle" dominant-baseline="central"
+        font-family="'Noto Serif SC','Songti SC',serif" font-weight="700"
+        font-size="168" fill="#F8F6EF" filter="url(#inkEdge)">箴</text>
+
+  <!-- 印款小字：豎排全名，tabular 佈局意識 -->
+  <text x="256" y="448" text-anchor="middle"
+        font-family="'Noto Sans SC',sans-serif" font-weight="500"
+        font-size="26" letter-spacing="12" fill="#7C6B59">晏銘湛箴</text>
+</svg>

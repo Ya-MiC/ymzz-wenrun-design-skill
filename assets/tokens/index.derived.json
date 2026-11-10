@@ -1,0 +1,125 @@
+{
+  "kind": "derived-index",
+  "originalArchiveContained": {
+    "tokens.json": false,
+    "tokens.light.json": false,
+    "scripts/color_math.py": false,
+    "scripts/contrast_verify.py": false
+  },
+  "source": "assets/tokens/tokens.css",
+  "note": "Built by scripts/validate_wenrun.py from tokens.css. Not an original tokens.json.",
+  "colors": [
+    {
+      "token": "--c-cloud-paper",
+      "hex": "F8F6EF"
+    },
+    {
+      "token": "--c-cloud-sky",
+      "hex": "B9DDF1"
+    },
+    {
+      "token": "--c-cloud-pink",
+      "hex": "F4DDE7"
+    },
+    {
+      "token": "--c-cloud-violet",
+      "hex": "CDBFE0"
+    },
+    {
+      "token": "--c-dusk-paper",
+      "hex": "E6E1D5"
+    },
+    {
+      "token": "--c-dusk-blue",
+      "hex": "7C9DB5"
+    },
+    {
+      "token": "--c-dusk-pink",
+      "hex": "B394A3"
+    },
+    {
+      "token": "--c-dusk-violet",
+      "hex": "93879F"
+    },
+    {
+      "token": "--c-earth-oat",
+      "hex": "E8E3CC"
+    },
+    {
+      "token": "--c-earth-sage",
+      "hex": "B7C8A8"
+    },
+    {
+      "token": "--c-earth-linen",
+      "hex": "CBBF9E"
+    },
+    {
+      "token": "--c-earth-cocoa",
+      "hex": "A38E7A"
+    },
+    {
+      "token": "--c-wood-oat",
+      "hex": "D9D3C0"
+    },
+    {
+      "token": "--c-wood-sage",
+      "hex": "7E8E6F"
+    },
+    {
+      "token": "--c-wood-linen",
+      "hex": "9E9073"
+    },
+    {
+      "token": "--c-wood-cocoa",
+      "hex": "7C6B59"
+    },
+    {
+      "token": "--c-wood-cocoa-text",
+      "hex": "9D8A76"
+    },
+    {
+      "token": "--c-cloud-violet-deep",
+      "hex": "75589D"
+    },
+    {
+      "token": "--ink-1",
+      "hex": "3D3833"
+    },
+    {
+      "token": "--ink-2",
+      "hex": "6E675E"
+    },
+    {
+      "token": "--ink-3",
+      "hex": "9C948A"
+    },
+    {
+      "token": "--bg-0",
+      "hex": "1F1B16"
+    },
+    {
+      "token": "--bg-1",
+      "hex": "2A241D"
+    },
+    {
+      "token": "--bg-2",
+      "hex": "352E25"
+    },
+    {
+      "token": "--bg-3",
+      "hex": "423A2F"
+    },
+    {
+      "token": "--ink-1",
+      "hex": "E6E1D5"
+    },
+    {
+      "token": "--ink-2",
+      "hex": "B3AC9F"
+    },
+    {
+      "token": "--ink-3",
+      "hex": "7A7268"
+    }
+  ]
+}

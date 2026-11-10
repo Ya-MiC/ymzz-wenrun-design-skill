@@ -1,0 +1,260 @@
+{
+  "width": 1240,
+  "height": 2553,
+  "background": "#F8F6EF",
+  "swatches": [
+    {
+      "name": "暖紙白",
+      "hex": "#F8F6EF",
+      "x": 64,
+      "y": 270,
+      "w": 252,
+      "h": 108,
+      "keyline": "#6E675E"
+    },
+    {
+      "name": "淺天空藍",
+      "hex": "#B9DDF1",
+      "x": 338,
+      "y": 270,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "荷花粉",
+      "hex": "#F4DDE7",
+      "x": 612,
+      "y": 270,
+      "w": 252,
+      "h": 108,
+      "keyline": "#6E675E"
+    },
+    {
+      "name": "淡紫",
+      "hex": "#CDBFE0",
+      "x": 886,
+      "y": 270,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "燕麥米",
+      "hex": "#E8E3CC",
+      "x": 64,
+      "y": 543,
+      "w": 252,
+      "h": 108,
+      "keyline": "#6E675E"
+    },
+    {
+      "name": "鼠尾草綠",
+      "hex": "#B7C8A8",
+      "x": 338,
+      "y": 543,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "亞麻金",
+      "hex": "#CBBF9E",
+      "x": 612,
+      "y": 543,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "可可棕",
+      "hex": "#A38E7A",
+      "x": 886,
+      "y": 543,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "暮紙白",
+      "hex": "#E6E1D5",
+      "x": 64,
+      "y": 879,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "霧靄藍",
+      "hex": "#7C9DB5",
+      "x": 338,
+      "y": 879,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "乾藕粉",
+      "hex": "#B394A3",
+      "x": 612,
+      "y": 879,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "菸灰紫",
+      "hex": "#93879F",
+      "x": 886,
+      "y": 879,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "夜麥米",
+      "hex": "#D9D3C0",
+      "x": 64,
+      "y": 1213,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "苔蘚綠",
+      "hex": "#7E8E6F",
+      "x": 338,
+      "y": 1213,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "褐亞麻",
+      "hex": "#9E9073",
+      "x": 612,
+      "y": 1213,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "深可可",
+      "hex": "#7C6B59",
+      "x": 886,
+      "y": 1213,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "可可文字級",
+      "hex": "#9D8A76",
+      "x": 64,
+      "y": 1496,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "深藤紫",
+      "hex": "#75589D",
+      "x": 338,
+      "y": 1496,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "ink-1 正文墨",
+      "hex": "#3D3833",
+      "x": 64,
+      "y": 1781,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "ink-2 次級",
+      "hex": "#6E675E",
+      "x": 338,
+      "y": 1781,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "ink-3 佔位",
+      "hex": "#9C948A",
+      "x": 612,
+      "y": 1781,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "bg-0 暖黑",
+      "hex": "#1F1B16",
+      "x": 64,
+      "y": 1983,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "bg-1",
+      "hex": "#2A241D",
+      "x": 338,
+      "y": 1983,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "bg-2",
+      "hex": "#352E25",
+      "x": 612,
+      "y": 1983,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "bg-3",
+      "hex": "#423A2F",
+      "x": 886,
+      "y": 1983,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "深色 ink-1",
+      "hex": "#E6E1D5",
+      "x": 64,
+      "y": 2187,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "深色 ink-2",
+      "hex": "#B3AC9F",
+      "x": 338,
+      "y": 2187,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    },
+    {
+      "name": "深色 ink-3",
+      "hex": "#7A7268",
+      "x": 612,
+      "y": 2187,
+      "w": 252,
+      "h": 108,
+      "keyline": null
+    }
+  ],
+  "note": "Assembled reading card. Hex values are the v7.1 palette. Geometry is not a new design."
+}
