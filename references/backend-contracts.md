@@ -33,9 +33,9 @@ These shapes are defined here so an implementation has something testable. They 
 {"code": "not_found", "message": "not_found"}
 ```
 
-- `code` and `message` are snake-case tokens from the project's enum.
-- `message` repeats a stable token. It is not a translated sentence. That constraint is a practical reading of "the server does not send user copy". The archive did not say the token must equal `code`.
-- Do not add `user_message`, `localized_message`, or a nested copy object.
+- `code` and `message` are snake-case tokens from the project's enum. `message` does not have to equal `code`. The archive did not say that they match. A token that is not in that enum is rejected.
+- `message` is not a translated sentence. That constraint is a practical reading of "the server does not send user copy".
+- Do not add `user_message`, `user_copy`, or `localized_message` at any depth, including inside `details` or a list.
 - Keys are snake case.
 
 ### Progress event
@@ -46,8 +46,9 @@ These shapes are defined here so an implementation has something testable. They 
 
 - `state` is one of `queued`, `running`, `succeeded`, `failed`, `cancelled`. Those five names are derived.
 - `total` is null when the length is unknown. Then omit any percent.
+- When `total` is known, `percent` may be present. It must be a finite number from 0 through 100. The archive did not publish that numeric bound. It is a derived check so a bar cannot draw past the end.
 - No `eta` field.
-- `cancellable` is true while the task can still be stopped. The archive requires cancel on a long task. It does not define this boolean.
+- `cancellable` is true only while the task can still be stopped. It is false for `succeeded`, `failed`, and `cancelled`. The archive requires cancel on a long task. It does not define this boolean.
 
 ### Pagination
 

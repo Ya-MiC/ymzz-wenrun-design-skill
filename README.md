@@ -20,7 +20,7 @@
 4. 做前端實作時讀 [`references/frontend.md`](references/frontend.md)。做錯誤、進度、取消、校驗時讀 [`references/backend-contracts.md`](references/backend-contracts.md)。
 5. 做 Word、PowerPoint、Excel 時讀 [`references/office-derivations.md`](references/office-derivations.md)，並對照 [`samples/`](samples/README.md)。
 
-檢查：`python3 -m unittest discover -s tests -v`
+乾淨環境先裝測試依賴，再跑測試：`python3 -m pip install -r requirements-dev.txt`，然後 `python3 -m unittest discover -s tests -v`。Pillow 只給測試用。
 
 ## 用在哪裡
 
@@ -123,7 +123,7 @@ The repository root is the skill. `.cursor/skills/ymzz-wenrun-design` points at 
 4. For implementation, read [`references/frontend.md`](references/frontend.md). For errors, progress, cancel, and validation, read [`references/backend-contracts.md`](references/backend-contracts.md).
 5. For Word, PowerPoint, and Excel, read [`references/office-derivations.md`](references/office-derivations.md) and the files in [`samples/`](samples/README.md).
 
-Check: `python3 -m unittest discover -s tests -v`
+On a clean checkout, install the test dependency first, then run the tests: `python3 -m pip install -r requirements-dev.txt`, then `python3 -m unittest discover -s tests -v`. Pillow is test-only.
 
 ### Where it applies
 
