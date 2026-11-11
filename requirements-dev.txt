@@ -1,0 +1,3 @@
+# Test-only. The skill has no runtime dependency.
+# Pillow's own license is not changed by this repository's MIT license.
+Pillow>=10.4

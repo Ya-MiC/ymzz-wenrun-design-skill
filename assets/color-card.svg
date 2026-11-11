@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="2553" viewBox="0 0 1240 2553" role="img">
+<title>晏銘湛箴溫潤色卡</title>
+<desc>Locked 雲箋 and 陶土 colors, dark derivatives, neutrals, and the unconfirmed 深藤紫 proposal. Hex values come from wenrun-design-system v7.1 tokens.css. Sticker, cover, and emblem colors are not included.</desc>
+<rect width="1240" height="2553" fill="#F8F6EF"/>
+<rect x="0" y="863" width="1240" height="218" fill="#1F1B16"/>
+<rect x="0" y="1197" width="1240" height="218" fill="#1F1B16"/>
+<rect x="64" y="270" width="252" height="108" rx="12" fill="#F8F6EF" stroke="#6E675E" stroke-width="3"/>
+<rect x="338" y="270" width="252" height="108" rx="12" fill="#B9DDF1"/>
+<rect x="612" y="270" width="252" height="108" rx="12" fill="#F4DDE7" stroke="#6E675E" stroke-width="3"/>
+<rect x="886" y="270" width="252" height="108" rx="12" fill="#CDBFE0"/>
+<rect x="64" y="543" width="252" height="108" rx="12" fill="#E8E3CC" stroke="#6E675E" stroke-width="3"/>
+<rect x="338" y="543" width="252" height="108" rx="12" fill="#B7C8A8"/>
+<rect x="612" y="543" width="252" height="108" rx="12" fill="#CBBF9E"/>
+<rect x="886" y="543" width="252" height="108" rx="12" fill="#A38E7A"/>
+<rect x="64" y="879" width="252" height="108" rx="12" fill="#E6E1D5"/>
+<rect x="338" y="879" width="252" height="108" rx="12" fill="#7C9DB5"/>
+<rect x="612" y="879" width="252" height="108" rx="12" fill="#B394A3"/>
+<rect x="886" y="879" width="252" height="108" rx="12" fill="#93879F"/>
+<rect x="64" y="1213" width="252" height="108" rx="12" fill="#D9D3C0"/>
+<rect x="338" y="1213" width="252" height="108" rx="12" fill="#7E8E6F"/>
+<rect x="612" y="1213" width="252" height="108" rx="12" fill="#9E9073"/>
+<rect x="886" y="1213" width="252" height="108" rx="12" fill="#7C6B59"/>
+<rect x="64" y="1496" width="252" height="108" rx="12" fill="#9D8A76"/>
+<rect x="338" y="1496" width="252" height="108" rx="12" fill="#75589D"/>
+<rect x="64" y="1781" width="252" height="108" rx="12" fill="#3D3833"/>
+<rect x="338" y="1781" width="252" height="108" rx="12" fill="#6E675E"/>
+<rect x="612" y="1781" width="252" height="108" rx="12" fill="#9C948A"/>
+<rect x="64" y="1983" width="252" height="108" rx="12" fill="#1F1B16"/>
+<rect x="338" y="1983" width="252" height="108" rx="12" fill="#2A241D"/>
+<rect x="612" y="1983" width="252" height="108" rx="12" fill="#352E25"/>
+<rect x="886" y="1983" width="252" height="108" rx="12" fill="#423A2F"/>
+<rect x="64" y="2187" width="252" height="108" rx="12" fill="#E6E1D5"/>
+<rect x="338" y="2187" width="252" height="108" rx="12" fill="#B3AC9F"/>
+<rect x="612" y="2187" width="252" height="108" rx="12" fill="#7A7268"/>
+<text x="64" y="64" fill="#3D3833" font-size="40" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">晏銘湛箴</text>
+<text x="64" y="112" fill="#3D3833" font-size="40" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">溫潤色卡</text>
+<text x="64" y="164" fill="#6E675E" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">八個鎖定色。機器色值來源是 tokens.css。此圖只彙總，不新設計。</text>
+<text x="64" y="188" fill="#6E675E" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">陶土是淺色系，不是深色模式。深藤紫仍是提案。</text>
+<text x="64" y="234" fill="#3D3833" font-size="22" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">雲箋　【鎖定】　每套四色封頂　·　淺色</text>
+<text x="64" y="390" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">暖紙白</text>
+<text x="64" y="415" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#F8F6EF</text>
+<text x="64" y="434" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">底層表面、大面積留白</text>
+<text x="338" y="390" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">淺天空藍</text>
+<text x="338" y="415" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#B9DDF1</text>
+<text x="338" y="434" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">標籤、手繪裝飾、資訊類提示</text>
+<text x="612" y="390" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">荷花粉</text>
+<text x="612" y="415" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#F4DDE7</text>
+<text x="612" y="434" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">輕柔點綴、重點提示、情感類反饋</text>
+<text x="886" y="390" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">淡紫</text>
+<text x="886" y="415" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#CDBFE0</text>
+<text x="886" y="434" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">過渡色、聚焦光暈、次級裝飾</text>
+<text x="64" y="480" fill="#3D3833" font-size="22" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">陶土　【鎖定】　每套四色封頂　·　淺色大地暖調，不是深色</text>
+<text x="64" y="516" fill="#6E675E" font-size="15" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">tokens.css 把鼠尾草綠寫成 #b7c8a8。與文件、白皮書的 #B7C8A8 是同一個 sRGB。</text>
+<text x="64" y="663" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">燕麥米</text>
+<text x="64" y="688" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#E8E3CC</text>
+<text x="64" y="707" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">淺表面、卡片</text>
+<text x="338" y="663" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">鼠尾草綠</text>
+<text x="338" y="688" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#B7C8A8</text>
+<text x="338" y="707" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">成功態、自然語義、標籤</text>
+<text x="612" y="663" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">亞麻金</text>
+<text x="612" y="688" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#CBBF9E</text>
+<text x="612" y="707" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">高亮、進度、溫和警示</text>
+<text x="886" y="663" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">可可棕</text>
+<text x="886" y="688" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#A38E7A</text>
+<text x="886" y="707" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">深點綴、邊飾。墨色在其上 3.70，不夠</text>
+<text x="886" y="725" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">正文</text>
+<text x="64" y="771" fill="#3D3833" font-size="22" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">暮靄　雲箋的莫蘭迪深版</text>
+<text x="64" y="801" fill="#6E675E" font-size="15" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">深色衍生的狀態標籤互相矛盾，此處全部保留，不升成最終鎖定：docs/01 為衍生·待驗證；tokens.css 為鎖定·已驗證；白皮書為計算已驗證、待三引擎真機複測；根目</text>
+<text x="64" y="828" fill="#6E675E" font-size="15" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">錄契約 SKILL 為計算已驗證·待終鎖。</text>
+<text x="64" y="999" fill="#E6E1D5" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">暮紙白</text>
+<text x="64" y="1024" fill="#E6E1D5" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#E6E1D5</text>
+<text x="64" y="1043" fill="#E6E1D5" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">深色模式主文字</text>
+<text x="338" y="999" fill="#E6E1D5" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">霧靄藍</text>
+<text x="338" y="1024" fill="#E6E1D5" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#7C9DB5</text>
+<text x="338" y="1043" fill="#E6E1D5" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">資訊標籤、手繪裝飾</text>
+<text x="612" y="999" fill="#E6E1D5" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">乾藕粉</text>
+<text x="612" y="1024" fill="#E6E1D5" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#B394A3</text>
+<text x="612" y="1043" fill="#E6E1D5" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">重點提示、情感反饋</text>
+<text x="886" y="999" fill="#E6E1D5" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">菸灰紫</text>
+<text x="886" y="1024" fill="#E6E1D5" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#93879F</text>
+<text x="886" y="1043" fill="#E6E1D5" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">聚焦光暈、次級裝飾</text>
+<text x="64" y="1105" fill="#3D3833" font-size="22" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">暮林　陶土的莫蘭迪深版</text>
+<text x="64" y="1135" fill="#6E675E" font-size="15" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">深色衍生的狀態標籤互相矛盾，此處全部保留，不升成最終鎖定：docs/01 為衍生·待驗證；tokens.css 為鎖定·已驗證；白皮書為計算已驗證、待三引擎真機複測；根目</text>
+<text x="64" y="1162" fill="#6E675E" font-size="15" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">錄契約 SKILL 為計算已驗證·待終鎖。</text>
+<text x="64" y="1333" fill="#E6E1D5" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">夜麥米</text>
+<text x="64" y="1358" fill="#E6E1D5" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#D9D3C0</text>
+<text x="64" y="1377" fill="#E6E1D5" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">深色模式主文字</text>
+<text x="338" y="1333" fill="#E6E1D5" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">苔蘚綠</text>
+<text x="338" y="1358" fill="#E6E1D5" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#7E8E6F</text>
+<text x="338" y="1377" fill="#E6E1D5" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">成功態、自然語義</text>
+<text x="612" y="1333" fill="#E6E1D5" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">褐亞麻</text>
+<text x="612" y="1358" fill="#E6E1D5" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#9E9073</text>
+<text x="612" y="1377" fill="#E6E1D5" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">高亮、進度</text>
+<text x="886" y="1333" fill="#E6E1D5" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">深可可</text>
+<text x="886" y="1358" fill="#E6E1D5" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#7C6B59</text>
+<text x="886" y="1377" fill="#E6E1D5" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">只作填充、邊界、裝飾，不作文字</text>
+<text x="64" y="1439" fill="#3D3833" font-size="22" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">不佔四色名額　·　派生與提案</text>
+<text x="64" y="1469" fill="#6E675E" font-size="15" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">這兩色不是第九個品牌色，也不進四色封頂。深藤紫未經確認。</text>
+<text x="64" y="1616" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">可可文字級</text>
+<text x="64" y="1641" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#9D8A76</text>
+<text x="64" y="1660" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">派生·已驗證。只作暮林文字，不是新色</text>
+<text x="64" y="1678" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">相</text>
+<text x="338" y="1616" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">深藤紫</text>
+<text x="338" y="1641" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#75589D</text>
+<text x="338" y="1660" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">提案·待確認。沒有鎖定，不能當已批准</text>
+<text x="338" y="1678" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">的品牌色</text>
+<text x="64" y="1724" fill="#3D3833" font-size="22" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">中性結構層</text>
+<text x="64" y="1754" fill="#6E675E" font-size="15" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">中性層不佔四色名額。狀態同樣並存：docs/01 為提案·待確認；tokens.css 為鎖定·已確認。</text>
+<text x="64" y="1901" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">ink-1 正文墨</text>
+<text x="64" y="1926" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#3D3833</text>
+<text x="64" y="1945" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">淺色正文</text>
+<text x="338" y="1901" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">ink-2 次級</text>
+<text x="338" y="1926" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#6E675E</text>
+<text x="338" y="1945" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">次級文字</text>
+<text x="612" y="1901" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">ink-3 佔位</text>
+<text x="612" y="1926" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#9C948A</text>
+<text x="612" y="1945" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">只作佔位與禁用，2.77，不能閱讀</text>
+<text x="64" y="2103" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">bg-0 暖黑</text>
+<text x="64" y="2130" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#1F1B16</text>
+<text x="64" y="2149" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">深色最底，不是純黑</text>
+<text x="338" y="2103" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">bg-1</text>
+<text x="338" y="2130" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#2A241D</text>
+<text x="338" y="2149" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">卡片</text>
+<text x="612" y="2103" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">bg-2</text>
+<text x="612" y="2130" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#352E25</text>
+<text x="612" y="2149" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">浮起表面</text>
+<text x="886" y="2103" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">bg-3</text>
+<text x="886" y="2130" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#423A2F</text>
+<text x="886" y="2149" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">浮層</text>
+<text x="64" y="2307" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">深色 ink-1</text>
+<text x="64" y="2332" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#E6E1D5</text>
+<text x="64" y="2351" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">與暮紙白同一色值</text>
+<text x="338" y="2307" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">深色 ink-2</text>
+<text x="338" y="2332" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#B3AC9F</text>
+<text x="338" y="2351" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">深色次級文字</text>
+<text x="612" y="2307" fill="#3D3833" font-size="18" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">深色 ink-3</text>
+<text x="612" y="2332" fill="#3D3833" font-size="16" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">#7A7268</text>
+<text x="612" y="2351" fill="#3D3833" font-size="14" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">深色佔位與禁用</text>
+<text x="64" y="2397" fill="#3D3833" font-size="15" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">同一畫面只用一套。正文用墨色，原色不作正文。可可棕底不夠正文對比。</text>
+<text x="64" y="2420" fill="#3D3833" font-size="15" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">對所在底色對比低於 1.2 的色塊，外圍用 ink-2 畫識別線。線不是色值。</text>
+<text x="64" y="2443" fill="#3D3833" font-size="15" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">不把貼紙色、封面排版色、徽章色算進這張產品色卡。</text>
+<text x="64" y="2466" fill="#3D3833" font-size="15" font-family="Noto Sans SC Variable, Noto Sans SC, WenQuanYi Micro Hei, sans-serif" dominant-baseline="hanging">原色卡見白皮書第 3 頁雲箋、第 5 頁深藤紫提案、第 6 頁陶土、第 7 頁暮靄與暮林。</text>
+</svg>

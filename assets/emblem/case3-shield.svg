@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="晏銘湛箴 徽章案三：銘盾極簡風">
+  <title>案三 · 銘盾極簡風</title>
+  <desc>極簡銘盾：單線幾何盾形（銘刻金屬意象）+ 盾心一字。線寬統一 10px，
+        對應表面體系「不用 1px 邊框、靠明度階分層」——此處僅徽章場景，不受該鐵律約束。
+        適合縮到 16px favicon 仍可辨識。色彩只取已鎖定色卡。</desc>
+  <defs>
+    <linearGradient id="shieldBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8E3CC"/>
+      <stop offset="1" stop-color="#CBBF9E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 底牌：陶土燕麥米 -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="#F8F6EF"/>
+
+  <!-- 盾形：幾何化，上緣平直、下緣收尖為圓弧，紀念碑感 -->
+  <path d="M256 84 L396 128 V268 C396 356 336 404 256 432 C176 404 116 356 116 268 V128 Z"
+        fill="url(#shieldBg)"/>
+
+  <!-- 盾緣單線：可可棕，粗線呼應低齡可辨識 -->
+  <path d="M256 84 L396 128 V268 C396 356 336 404 256 432 C176 404 116 356 116 268 V128 Z"
+        fill="none" stroke="#7C6B59" stroke-width="10" stroke-linejoin="round"/>
+
+  <!-- 盾心一字「湛」：深墨，唯一濃色 -->
+  <text x="256" y="266" text-anchor="middle" dominant-baseline="central"
+        font-family="'Noto Serif SC','Songti SC',serif" font-weight="700"
+        font-size="148" fill="#3D3833">湛</text>
+
+  <!-- 頂部小銘點：極簡唯一的裝飾 -->
+  <circle cx="256" cy="112" r="8" fill="#B394A3"/>
+
+  <text x="256" y="482" text-anchor="middle"
+        font-family="'Noto Sans SC',sans-serif" font-weight="500"
+        font-size="24" letter-spacing="10" fill="#7C6B59">晏銘湛箴</text>
+</svg>

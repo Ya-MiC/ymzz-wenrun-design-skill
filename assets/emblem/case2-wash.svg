@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="晏銘湛箴 徽章案二：暈章水墨風">
+  <title>案二 · 暈章水墨風</title>
+  <desc>水墨暈染：三層同心暈圈（天空藍→淡紫→荷粉）模擬墨滴入水，中心置「晏」字。
+        對應簽名動效「逐字 blur 暈開」的靜態錨點。色彩只取已鎖定色卡。</desc>
+  <defs>
+    <radialGradient id="haloBlue" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#7C9DB5" stop-opacity=".85"/>
+      <stop offset=".62" stop-color="#7C9DB5" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#7C9DB5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haloViolet" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#93879F" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#93879F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haloPink" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#B394A3" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#B394A3" stop-opacity="0"/>
+    </radialGradient>
+    <!-- 紙纖維噪點，讓暈圈邊緣像滲進紙裡 -->
+    <filter id="paperBleed" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="14"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="96" fill="#F8F6EF"/>
+
+  <!-- 三層暈圈：外淡內濃，邊緣滲紙 -->
+  <g filter="url(#paperBleed)">
+    <circle cx="256" cy="236" r="196" fill="url(#haloPink)"/>
+    <circle cx="256" cy="236" r="152" fill="url(#haloViolet)"/>
+    <circle cx="256" cy="236" r="112" fill="url(#haloBlue)"/>
+  </g>
+
+  <!-- 中心字「晏」：暮靄紙色反白，靜置於最濃處 -->
+  <text x="256" y="252" text-anchor="middle" dominant-baseline="central"
+        font-family="'Noto Serif SC','Songti SC',serif" font-weight="600"
+        font-size="132" fill="#F8F6EF">晏</text>
+
+  <!-- 細線托底：一筆弧線，水墨筆意 -->
+  <path d="M120 404 Q 256 372 392 404" fill="none"
+        stroke="#7C6B59" stroke-opacity=".45" stroke-width="5" stroke-linecap="round"/>
+
+  <text x="256" y="456" text-anchor="middle"
+        font-family="'Noto Sans SC',sans-serif" font-weight="500"
+        font-size="24" letter-spacing="10" fill="#7C6B59">晏銘湛箴</text>
+</svg>
